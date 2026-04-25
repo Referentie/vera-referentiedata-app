@@ -1,13 +1,33 @@
 <!DOCTYPE html>
-<html lang='nl'>
+<html lang="nl">
 <head>
-  <meta charset='utf-8'>
-  <title>VERA test</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>VERA mockdata test</title>
+  <style>
+    body { font-family: Arial, sans-serif; padding: 2rem; }
+    label { display:block; margin-top: 1rem; }
+    select { width: 320px; padding: 6px; }
+    table { border-collapse: collapse; margin-top: 1rem; }
+    th, td { border: 1px solid #ccc; padding: 6px; }
+    th { background: #f0f0f0; }
+  </style>
 </head>
 <body>
-  <h1>VERA referentiedata test</h1>
-  <select id="sel"></select>
-  <pre id="out"></pre>
+  <h1>VERA referentiedata (mockdata)</h1>
+  <p>Deze versie gebruikt lokale data.json (geen API).</p>
+
+  <label>Resource</label>
+  <select id="resource"></select>
+
+  <label>Entiteit</label>
+  <select id="entiteit"></select>
+
+  <label>Attribuut</label>
+  <select id="attribuut"></select>
+
+  <div id="result"></div>
+
   <script src="app.js"></script>
 </body>
 </html>

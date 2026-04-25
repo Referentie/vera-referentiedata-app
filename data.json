@@ -1,0 +1,29 @@
+[
+  {
+    "resource": "Vastgoed",
+    "entiteit": "Eenheid",
+    "attribuut": "soort",
+    "waarden": [
+      { "Code": "WOO", "Naam": "Woonruimte" },
+      { "Code": "PAR", "Naam": "Parkeerplaats" }
+    ]
+  },
+  {
+    "resource": "Vastgoed",
+    "entiteit": "Eenheid",
+    "attribuut": "status",
+    "waarden": [
+      { "Code": "LEEG", "Naam": "Leegstand" },
+      { "Code": "VERH", "Naam": "Verhuurd" }
+    ]
+  },
+  {
+    "resource": "Publicatie",
+    "entiteit": "Aanbieding",
+    "attribuut": "status",
+    "waarden": [
+      { "Code": "ACT", "Naam": "Actief" },
+      { "Code": "GES", "Naam": "Gesloten" }
+    ]
+  }
+]
